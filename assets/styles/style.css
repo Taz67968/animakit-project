@@ -16,7 +16,7 @@
 body {
   width: 350px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   overflow-y: scroll;
   overflow-x: scroll;
   line-height: normal;
@@ -27,7 +27,7 @@ body {
 }
 
 .sec-one {
-  background: url(../images/image-1.jfif),linear-gradient(#4a4848,#4a4848);
+  background: url(../images/image-1.jfif), linear-gradient(#4a4848, #4a4848);
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffff;
@@ -44,6 +44,7 @@ footer img {
   padding-top: 10px;
   padding-bottom: 10px;
   justify-content: space-between;
+
   img {
     width: 15%;
     height: 15%;
@@ -66,6 +67,7 @@ a {
   justify-content: left;
   color: #447dd3;
   font-family: Arial, Helvetica, sans-serif;
+
   img {
     width: 20%;
     height: 20%;
@@ -307,15 +309,6 @@ footer .f-one {
 }
 
 .box-ten {
-  box-shadow: 0 4px 4px black;
-  border-radius: 5px;
-  padding: 1rem 0;
-  background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.box-eleven {
   box-shadow: 0 4px 4px black;
   border-radius: 5px;
   padding: 1rem 0;
