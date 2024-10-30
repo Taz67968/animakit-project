@@ -27,7 +27,7 @@ body {
 }
 
 .sec-one {
-  background: url(../images/image-1.jfif), linear-gradient(#4a4848, #4a4848);
+  background: url("../images/image-1.jfif"), linear-gradient(#4a4848, #4a4848);
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffff;
@@ -56,7 +56,7 @@ a {
 }
 
 .sec-two {
-  background-image: url(../images/logo-8.jpg), linear-gradient(#655c5c, #655c5c);
+  background-image: url"(../images/logo-8.jpg)", linear-gradient(#655c5c, #655c5c);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -124,6 +124,7 @@ footer .f-one {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .sec-three {
   padding: 5%;
 }
@@ -227,6 +228,7 @@ footer .f-one {
 .mam {
   display: flex;
   align-content: space-between;
+
   img {
     width: 10%;
   }
