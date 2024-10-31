@@ -34,14 +34,13 @@ body {
 }
 
 footer img {
-  width: 15%;
-  height: 15%;
+  width: 100%;
+  height: 100%;
 }
 
 .com {
   padding-top: 5%;
   padding-bottom: 5%;
-  
   img {
     width: 2.5rem;
     height: 2.5rem;
@@ -59,7 +58,7 @@ a {
 }
 
 .sec-two {
-  background-image: url("../images/logo-8.jpg"), linear-gradient(#655c5c, #655c5c);
+  background-image: url("../images/logo-8.jpg"), linear-gradient(125deg, #655c5c, #655c5c);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -72,8 +71,8 @@ a {
   font-family: Arial, Helvetica, sans-serif;
 
   img {
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -119,7 +118,7 @@ footer .f-one {
 }
 
 .middle img {
-  width: 30%;
+  width: 100%;
 }
 
 .sec-four {
@@ -188,7 +187,7 @@ footer .f-one {
   margin-bottom: 5%;
 
   img {
-    width: 30%;
+    width: 100%;
   }
 }
 
@@ -212,7 +211,7 @@ footer .f-one {
 
 .three-three {
   img {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -237,7 +236,7 @@ footer .f-one {
   align-content: space-between;
 
   img {
-    width: 10%;
+    width: 100%;
   }
 }
 
