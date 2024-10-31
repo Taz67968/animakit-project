@@ -20,8 +20,8 @@ body {
   overflow-y: scroll;
   overflow-x: scroll;
   line-height: normal;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: block;
   font-size: medium;
 }
@@ -39,15 +39,18 @@ footer img {
 }
 
 .com {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  justify-content: space-between;
-
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
   img {
-    width: 15%;
-    height: 15%;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 0.7em;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -56,7 +59,7 @@ a {
 }
 
 .sec-two {
-  background-image: url"(../images/logo-8.jpg)", linear-gradient(#655c5c, #655c5c);
+  background-image: url("../images/logo-8.jpg"), linear-gradient(#655c5c, #655c5c);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -77,15 +80,15 @@ a {
 header {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .done {
   display: flex;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 h2 {
@@ -95,15 +98,19 @@ h2 {
 
 button {
   background-color: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 footer {
   background-color: #4a4848;
   border-bottom: 1px solid #1254b8;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h4 {
+  color: #f6f6f6;
 }
 
 footer .f-one {
@@ -121,8 +128,8 @@ footer .f-one {
 }
 
 .one {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .sec-three {
@@ -134,14 +141,14 @@ footer .f-one {
   justify-content: space-between;
   text-align: center;
   padding: 5%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .five {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .me {
@@ -150,9 +157,9 @@ footer .f-one {
 
 .us {
   display: block;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-right: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
 }
 
 .you img {
@@ -169,16 +176,16 @@ footer .f-one {
   font-size: small;
   text-align: center;
   align-items: space-between;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   padding: 5%;
 }
 
 .cont {
   display: flex;
   padding: 5%;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 
   img {
     width: 30%;
@@ -221,8 +228,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .mam {
@@ -243,8 +250,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box-two {
@@ -252,8 +259,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box-three {
@@ -261,8 +268,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box-four {
@@ -270,8 +277,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box-six {
@@ -279,8 +286,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box-seven {
@@ -288,8 +295,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box-eight {
@@ -297,8 +304,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box-nine {
@@ -306,8 +313,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box-ten {
@@ -315,8 +322,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box-twelve {
@@ -325,8 +332,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box-thirteen {
@@ -335,8 +342,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .eleven {
@@ -345,8 +352,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .twelve {
@@ -355,8 +362,8 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .thirteen {
@@ -365,6 +372,6 @@ footer .f-one {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
