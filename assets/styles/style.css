@@ -15,19 +15,19 @@
   border: 1px solid;
   width: fit-content;
   padding: 0.5rem 2rem;
-  color: #ffffffcc;
+  color: #ffffcc;
   border-radius: 8px;
 }
 
 .header-hero-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 5), rgba(0, 0, 0, 5)),
     url("../images//hero-banner.jpg") center center;
   background-size: cover;
   height: 70vh;
   width: 100%;
   gap: 4rem;
-  color: #ffffffcc;
-  font-family: "Arimo", sans-serif;
+  color: #ffffcc;
+  font-family: 'Arimo', sans-serif;
 }
 
 .header,
@@ -60,7 +60,7 @@ h1 {
   text-transform: uppercase;
 
   span {
-    color: rgb(57, 109, 242);
+    color: #396df2;
   }
 }
 
@@ -83,10 +83,10 @@ h1 {
 }
 
 .text {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 5), rgba(0, 0, 0, 5)),
     url("../images//pexels-pixabay-209679.jpg") center center;
   background-size: cover;
-  color: #ffffffcc;
+  color: #ffffcc;
   text-align: center;
 }
 
@@ -95,7 +95,7 @@ h1 {
   border: 1px solid;
   width: fit-content;
   padding: 0.5rem 2rem;
-  color: #ffffffcc;
+  color: #ffffcc;
   border-radius: 8px;
   margin-top: 0.5rem;
 }
@@ -159,6 +159,7 @@ h2 {
 
 .cont {
   display: flex;
+
   img {
     width: 60%;
   }
@@ -181,6 +182,29 @@ h2 {
   grid-template-columns: 50% 50%;
 }
 
+button {
+  background: none;
+  border: 1px solid;
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  color: #0f214fcc;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.seven {
+  display: flex;
+  button {
+    background: none;
+    border: 1px solid;
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    color: #0f214fcc;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+  }
+}
+
 .sec-four {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
@@ -189,6 +213,7 @@ h2 {
   box-shadow: #4a4848;
   grid-column: 2rem;
   background-color: #e3e2e2;
+
   button {
     background: none;
     border: 1px solid;
@@ -208,6 +233,7 @@ h2 {
   align-content: space-between;
   background-color: #e3e2e2;
   gap: 1rem;
+
   button {
     background: none;
     border: 1px solid;
@@ -217,16 +243,6 @@ h2 {
     border-radius: 8px;
     margin-top: 0.5rem;
   }
-}
-
-button {
-  background: none;
-  border: 1px solid;
-  width: fit-content;
-  padding: 0.5rem 2rem;
-  color: #0f214fcc;
-  border-radius: 8px;
-  margin-top: 0.5rem;
 }
 
 .box-one {
@@ -280,19 +296,6 @@ button {
   text-align: center;
 }
 
-.seven {
-  display: flex;
-  button {
-    background: none;
-    border: 1px solid;
-    width: fit-content;
-    padding: 0.5rem 2rem;
-    color: #0f214fcc;
-    border-radius: 8px;
-    margin-top: 0.5rem;
-  }
-}
-
 .side-img {
   img {
     padding-top: 5rem;
@@ -339,10 +342,10 @@ button {
 }
 
 .discover {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 5), rgba(0, 0, 0, 5)),
     url("../images//pexels-yankrukov-7693219.jpg") center center;
   background-size: cover;
-  color: #ffffffcc;
+  color: #ffffcc;
   text-align: center;
 }
 
@@ -354,7 +357,6 @@ button {
   background-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
-  text-align: center;
   color: black;
 }
 
@@ -366,7 +368,6 @@ button {
   background-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
-  text-align: center;
   color: black;
 }
 
@@ -378,7 +379,6 @@ button {
   background-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
-  text-align: center;
   color: black;
 }
 
@@ -393,7 +393,6 @@ button {
   justify-content: space-evenly;
   margin-top: 5%;
   margin-bottom: 5%;
-
 }
 
 .mam {
@@ -414,19 +413,23 @@ footer {
   .nav {
     display: none;
   }
+
   #hero-text {
     width: 100%;
   }
+
   .vid {
     display: flex;
     align-content: space-between;
   }
+
   .about-text {
     text-align: center;
     align-content: space-around;
     justify-content: space-evenly;
     font-size: medium;
   }
+
   .logo-section {
     display: flex;
     justify-content: space-around;
@@ -435,20 +438,25 @@ footer {
       height: auto;
     }
   }
+
   .rating {
     width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .container {
     display: block;
   }
+
   video {
     display: none;
   }
+
   .about {
     margin-top: 2%;
   }
+
   .text {
     width: 100%;
     height: 70vh;
@@ -457,33 +465,41 @@ footer {
     margin-top: 5%;
     margin-bottom: 5%;
   }
+
   .animation-text {
     display: block;
   }
+
   .sec-four {
     display: block;
     text-align: center;
   }
+
   .sec-three {
     display: block;
     text-align: center;
   }
+
   .eleven {
     display: block;
   }
+
   .twelve {
     display: block;
   }
   .thirteen {
     display: block;
   }
+
   .seven {
     display: block;
   }
 }
+
 .cont {
   display: block;
 }
+
 .cons {
   display: block;
 }
@@ -495,6 +511,7 @@ footer {
     justify-content: space-between;
     font-size: large;
   }
+
   .logo-section {
     display: flex;
     justify-content: space-around;
@@ -504,21 +521,24 @@ footer {
       height: 90%;
     }
   }
+
   .about-vid {
     display: grid;
     grid-template-columns: 40% 60%;
   }
+
   video {
     width: 100%;
   }
+
   .text {
     text-align: center;
     align-content: space-evenly;
     width: 100%;
     height: 55vh;
     justify-self: center;
-    align-content: space-evenly;
   }
+
   .f-one {
     display: flex-end;
   }
