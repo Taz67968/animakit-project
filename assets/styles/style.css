@@ -14,19 +14,19 @@
   border: 1px solid;
   width: fit-content;
   padding: 0.5rem 2rem;
-  color: hwb(0 100% 0% / 0.8);
+  color: #ffffff;
   border-radius: 8px;
 }
 
 .header-hero-section {
-  background: linear-gradient(#00000080, #00000080),
+  background:
+   linear-gradient(#00000080, #00000080),
     url("../images//hero-banner.jpg") center center;
-
   background-size: cover;
   height: 70vh;
   width: 100%;
   gap: 4rem;
-  color: hwb(0 100% 0% / 0.8);
+  color: #ffffff;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -83,11 +83,11 @@ h1 {
 }
 
 .text {
-  background: linear-gradient(#00000080, #00000080),
+  background:
+   linear-gradient(#00000080, #00000080),
     url("../images//pexels-pixabay-209679.jpg") center center;
-
   background-size: cover;
-  color: hwb(0 100% 0% / 0.8);
+  color: #ffffff;
   text-align: center;
 }
 
@@ -96,7 +96,7 @@ h1 {
   border: 1px solid;
   width: fit-content;
   padding: 0.5rem 2rem;
-  color: hwb(0 100% 0% / 0.8);
+  color: #ffffff;
   border-radius: 8px;
   margin-top: 0.5rem;
 }
@@ -181,7 +181,6 @@ h2 {
 .cons {
   display: grid;
   grid-template-columns: 50% 50%;
-  display: block;
 }
 
 button {
@@ -345,11 +344,11 @@ button {
 }
 
 .discover {
-  background: linear-gradient(#00000080, #00000080),
+  background:
+   linear-gradient(#00000080, #00000080),
     url("../images//pexels-yankrukov-7693219.jpg") center center;
-
   background-size: cover;
-  color: hwb(0 100% 0% / 0.8);
+  color: #ffffff;
   text-align: center;
 }
 
@@ -536,5 +535,8 @@ footer {
     height: 55vh;
     justify-self: center;
     align-content: space-evenly;
+  }
+  .cons {
+    display: block;
   }
 }
