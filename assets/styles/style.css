@@ -14,18 +14,19 @@
   border: 1px solid;
   width: fit-content;
   padding: 0.5rem 2rem;
-  color: #ffffffcc;
+  color: hwb(0 100% 0% / 0.8);
   border-radius: 8px;
 }
 
 .header-hero-section {
   background: linear-gradient(#00000080, #00000080),
     url("../images//hero-banner.jpg") center center;
+
   background-size: cover;
   height: 70vh;
   width: 100%;
   gap: 4rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: hwb(0 100% 0% / 0.8);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -84,8 +85,9 @@ h1 {
 .text {
   background: linear-gradient(#00000080, #00000080),
     url("../images//pexels-pixabay-209679.jpg") center center;
+
   background-size: cover;
-  color: #ffffffcc;
+  color: hwb(0 100% 0% / 0.8);
   text-align: center;
 }
 
@@ -94,7 +96,7 @@ h1 {
   border: 1px solid;
   width: fit-content;
   padding: 0.5rem 2rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: hwb(0 100% 0% / 0.8);
   border-radius: 8px;
   margin-top: 0.5rem;
 }
@@ -179,6 +181,7 @@ h2 {
 .cons {
   display: grid;
   grid-template-columns: 50% 50%;
+  display: block;
 }
 
 button {
@@ -344,8 +347,9 @@ button {
 .discover {
   background: linear-gradient(#00000080, #00000080),
     url("../images//pexels-yankrukov-7693219.jpg") center center;
+
   background-size: cover;
-  color: #ffffffcc;
+  color: hwb(0 100% 0% / 0.8);
   text-align: center;
 }
 
@@ -368,7 +372,6 @@ button {
   background-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
-  text-align: center;
   color: black;
 }
 
@@ -499,13 +502,6 @@ footer {
   .seven {
     display: block;
   }
-}
-
-.cont {
-  display: block;
-}
-.cons {
-  display: block;
 }
 
 @media only screen and (min-width: 320px) {
