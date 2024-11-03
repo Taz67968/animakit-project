@@ -14,19 +14,19 @@
   border: 1px solid;
   width: fit-content;
   padding: 0.5rem 2rem;
-  color: #ffffff;
+  color: white;
   border-radius: 8px;
 }
 
 .header-hero-section {
-  background:
-   linear-gradient(#00000080, #00000080),
-    url("../images//hero-banner.jpg") center center;
+  background: 
+  linear-gradient(#00000080, #00000080),
+  url("../images//hero-banner.jpg") center center;
   background-size: cover;
   height: 70vh;
   width: 100%;
   gap: 4rem;
-  color: #ffffff;
+  color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -84,10 +84,10 @@ h1 {
 
 .text {
   background:
-   linear-gradient(#00000080, #00000080),
-    url("../images//pexels-pixabay-209679.jpg") center center;
+  linear-gradient(#00000080, #00000080),
+  url("../images//pexels-pixabay-209679.jpg") center center;
   background-size: cover;
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 
@@ -96,7 +96,7 @@ h1 {
   border: 1px solid;
   width: fit-content;
   padding: 0.5rem 2rem;
-  color: #ffffff;
+  color: white;
   border-radius: 8px;
   margin-top: 0.5rem;
 }
@@ -345,10 +345,10 @@ button {
 
 .discover {
   background:
-   linear-gradient(#00000080, #00000080),
+    linear-gradient(#00000080, #00000080),
     url("../images//pexels-yankrukov-7693219.jpg") center center;
   background-size: cover;
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 
@@ -536,6 +536,7 @@ footer {
     justify-self: center;
     align-content: space-evenly;
   }
+
   .cons {
     display: block;
   }
