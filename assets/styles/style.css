@@ -35,6 +35,10 @@ h1,
 .hero-section {
   display: flex;
   justify-content: space-between;
+
+  span {
+    color: white;
+  }
 }
 
 .header,
@@ -105,8 +109,8 @@ h2 {
   display: flex;
   text-align: center;
   justify-content: space-around;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .about {
@@ -116,6 +120,8 @@ h2 {
 
 .animation-text {
   display: flex;
+  background-color: #e3e2e2;
+  margin-top: 10px;
 }
 
 .btn-three {
@@ -136,22 +142,39 @@ h2 {
   width: 100%;
 }
 
+.pre {
+  display: flex;
+  flex-direction: column;
+}
+
 .eleven {
   display: flex;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+
+  img {
+  width: 50%;
+  }
 }
 
 .twelve {
   display: flex;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+
+  img {
+  width: 50%;
+  }
 }
 
 .thirteen {
   display: flex;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+
+  img {
+  width: 50%;
+  }
 }
 
 .cont {
@@ -193,7 +216,7 @@ button {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   gap: 1rem;
-  padding: 5%;
+  padding: 2.5%;
   box-shadow: #4a4848;
   grid-column: 2rem;
   background-color: #e3e2e2;
@@ -212,7 +235,7 @@ button {
 .sec-three {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
-  padding: 5%;
+  padding: 2.5%;
   box-shadow: #4a4848;
   align-content: space-between;
   background-color: #e3e2e2;
@@ -235,8 +258,6 @@ button {
   border-top: 1px solid black;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -245,8 +266,6 @@ button {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -255,8 +274,6 @@ button {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -265,8 +282,6 @@ button {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -275,13 +290,12 @@ button {
   border-radius: 5px;
   padding: 1rem 0;
   background-color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
   text-align: center;
 }
 
 .seven {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
 
   button {
     background: none;
@@ -298,7 +312,7 @@ button {
   img {
     padding-top: 5rem;
     padding-right: 5rem;
-    width: 60%;
+    width: 100%;
     height: auto;
   }
 }
@@ -427,6 +441,8 @@ footer {
     align-content: space-around;
     justify-content: space-evenly;
     font-size: medium;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .logo-section {
@@ -502,6 +518,8 @@ footer {
     text-align: justify;
     justify-content: space-between;
     font-size: large;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .logo-section {
