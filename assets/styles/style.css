@@ -3,6 +3,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  width: auto;
 }
 
 :root {
@@ -27,6 +28,9 @@ h1,
   justify-content: space-between;
 }
 
+a {
+  color: white;
+}
 .header,
 .hero-section {
   width: var(--main-width);
@@ -185,6 +189,8 @@ h2 {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 1rem;
+  background-color: #e3e2e2;
+  text-align: center;
 }
 
 .one-one {
@@ -320,6 +326,7 @@ button {
   background-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
+  width: 90%;
 }
 
 .box-eight {
@@ -329,6 +336,7 @@ button {
   background-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
+  width: 90%;
 }
 
 .box-nine {
@@ -338,6 +346,7 @@ button {
   background-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
+  width: 90%;
 }
 
 .box-ten {
@@ -347,6 +356,7 @@ button {
   background-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
+  width: 90%;
 }
 
 .discover {
@@ -365,6 +375,7 @@ button {
   margin-top: 5%;
   margin-bottom: 5%;
   color: black;
+  width: 90%;
 }
 
 .box-twelve {
@@ -376,6 +387,7 @@ button {
   margin-top: 5%;
   margin-bottom: 5%;
   color: black;
+  width: 90%;
 }
 
 .box-thirteen {
@@ -387,6 +399,7 @@ button {
   margin-top: 5%;
   margin-bottom: 5%;
   color: black;
+  width: 90%;
 }
 
 .sup {
@@ -398,13 +411,27 @@ button {
 .last-sec {
   display: flex;
   justify-content: space-evenly;
+  background-color: #e3e2e2;
+
+  img {
+    width: 50%;
+  }
 }
 
 .mam {
-  display: grid;
-  grid-template-columns: 50% 50%;
   gap: 2rem;
   justify-content: space-evenly;
+
+  img {
+    width: 50%;
+  }
+}
+
+.lorem {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 50px;
 
   img {
     width: 50%;
@@ -416,8 +443,28 @@ footer {
   border-bottom: 1px solid #6a9ae1;
   margin-top: 5%;
   margin-bottom: 5%;
+
+  img {
+    width: 40%;
+  }
 }
 
+.service {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.jalan {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.consultaton-box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
+}
 @media only screen and (max-width: 1500px) {
   .nav {
     display: none;
