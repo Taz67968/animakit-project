@@ -31,6 +31,7 @@ h1,
 a {
   color: white;
 }
+
 .header,
 .hero-section {
   width: var(--main-width);
@@ -123,7 +124,6 @@ h2 {
   justify-content: space-between;
   background-color: #e3e2e2;
   margin-top: 10px;
-
 }
 
 .btn-three {
