@@ -120,8 +120,10 @@ h2 {
 
 .animation-text {
   display: flex;
+  justify-content: space-between;
   background-color: #e3e2e2;
   margin-top: 10px;
+
 }
 
 .btn-three {
@@ -145,6 +147,17 @@ h2 {
 .pre {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  background-color: #e9d2d25d;
+  border-bottom: 1px solid #6a9ae1;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  img {
+    width: 40%;
+  }
 }
 
 .eleven {
@@ -438,17 +451,6 @@ button {
   }
 }
 
-footer {
-  background-color: #e9d2d25d;
-  border-bottom: 1px solid #6a9ae1;
-  margin-top: 5%;
-  margin-bottom: 5%;
-
-  img {
-    width: 40%;
-  }
-}
-
 .service {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -465,6 +467,7 @@ footer {
   grid-template-columns: 50% 50%;
   gap: 1rem;
 }
+
 @media only screen and (max-width: 1500px) {
   .nav {
     display: none;
